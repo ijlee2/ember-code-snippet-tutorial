@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Isaac J. Lee">
+        <meta name="description" content="Tutorial for Ember Code Snippet">
+        <meta name="keywords" content="Isaac J. Lee, Ember, Ember.js, Ember Code Snippet, Ember Octane, Highlight.js, Prism.js">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ember Code Snippet Tutorial</title>
+
+        {{content-for "head"}}
+
+        <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+        <link integrity="" rel="stylesheet" href="{{rootURL}}assets/ember-code-snippet-tutorial.css">
+
+        {{content-for "head-footer"}}
+    </head>
+    <body>
+        {{content-for "body"}}
+
+        <script src="{{rootURL}}assets/vendor.js"></script>
+        <script src="{{rootURL}}assets/ember-code-snippet-tutorial.js"></script>
+
+        {{content-for "body-footer"}}
+    </body>
+</html>
